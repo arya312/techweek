@@ -2,15 +2,14 @@
 .footer-container {
   background-color: #333335;
   color: white;
-  min-height: 55vh;
   height: fit-content;
-  padding: 8rem 0;
+  position: relative;
+  top: 100px;
+  padding: 60px 60px;
   .main-container {
-    margin: 0 10%;
-
-    padding-top: 2.5rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    height: fit-content;
     ul {
       list-style-type: none;
       margin: 0;

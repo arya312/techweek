@@ -22,8 +22,8 @@ function Blogs() {
           animate={controls}
           transition={{ duration: 1 }}
         >
-        <Title title="Events" color="pink" lineCenter={true} />
-        <p>Insights and advice from our experts.</p>
+          <Title title="Events" color="pink" lineCenter={true} />
+          <p>Insights and advice from our experts.</p>
         </motion.div>
         <div className="blogs">
           <Blog
@@ -89,16 +89,8 @@ function Blogs() {
             title="How to Build a Strong Remote Work Culture"
             subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
             variants={cardAnimation}
-            
             animate={controls}
           />
-        </div>
-        <div
-          className="button-container"
-          variants={textAnimation}
-          animate={controls}
-        >
-          <Button content="View All" />
         </div>
       </div>
     </div>
