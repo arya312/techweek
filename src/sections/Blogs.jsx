@@ -5,15 +5,15 @@ import Title from "../components/Title";
 import { useScroll } from "../components/useScroll";
 import { motion } from "framer-motion";
 import BlogImage1 from "../sections/eventsImages/basicprogramming.jpeg";
-import BlogImage2 from "../sections/eventsImages/circuits.jpeg";
-import BlogImage3 from "../sections/eventsImages/dsa.jpeg";
-import BlogImage4 from "../sections/eventsImages/flutter.jpeg";
-import BlogImage5 from "../sections/eventsImages/graphicdesign.png";
-import BlogImage6 from "../sections/eventsImages/iot.jpeg";
-import BlogImage7 from "../sections/eventsImages/ml.jpeg";
-import BlogImage8 from "../sections/eventsImages/robotics.jpeg";
-import BlogImage9 from "../sections/eventsImages/solidworks.png";
-import BlogImage10 from "../sections/eventsImages/webd.jpeg";
+import BlogImage8 from "../sections/eventsImages/circuits.jpeg";
+import BlogImage2 from "../sections/eventsImages/dsa.jpeg";
+import BlogImage5 from "../sections/eventsImages/flutter.jpeg";
+import BlogImage10 from "../sections/eventsImages/graphicdesign.png";
+import BlogImage3 from "../sections/eventsImages/iot.jpeg";
+import BlogImage6 from "../sections/eventsImages/ml.jpeg";
+import BlogImage9 from "../sections/eventsImages/robotics.jpeg";
+import BlogImage7 from "../sections/eventsImages/solidworks.png";
+import BlogImage4 from "../sections/eventsImages/webd.jpeg";
 import "../styles/sections/Blogs.scss";
 import { textAnimation, cardAnimation } from "../utils/Animations";
 
@@ -35,73 +35,71 @@ function Blogs() {
         <div className="blogs">
           <Blog
             image={BlogImage1}
-            title="Top list of Mistakes to Avoid During MVP Development"
-            subTitle="When there appears an idea to create a startup, have to take into
-            account all the risks you will face and evalute them thoughtfullu.
-            Also as a rule..."
+            title="Basic Programming"
+            subTitle="A low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture—commands or functions in the language map that are structurally similar to processor's instructions. Generally, this refers to either machine code or assembly language."
             variants={cardAnimation}
             animate={controls}
           />
           <Blog
             image={BlogImage2}
-            title="A Day in the life on an Engineering Manager"
-            subTitle="During the eight years I spent as an engineering manager, I regularly tracked how I spent my time. As a startup engineering manager, I was ... "
+            title="Data Structures and Algorithms"
+            subTitle="Data structures are used to hold data while algorithms are used to solve the problem using that data. Data structures and algorithms (DSA) goes through solutions to standard problems in detail and gives you an insight into how efficient it is to use each one of them."
             variants={cardAnimation}
             animate={controls}
           />
           <Blog
             image={BlogImage3}
-            title="How to Build a Strong Remote Work Culture"
-            subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
+            title="Internet of Things"
+            subTitle="The Internet of Things (IoT) refers to a system of interrelated, internet-connected objects that are able to collect and transfer data over a wireless network without human intervention."
             variants={cardAnimation}
             animate={controls}
           />
           <Blog
             image={BlogImage4}
-            title="How to Build a Strong Remote Work Culture"
-            subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
+            title="Web Development"
+            subTitle="Web development refers to building, creating, and maintaining websites."
             variants={cardAnimation}
             animate={controls}
           />
           <Blog
             image={BlogImage5}
-            title="How to Build a Strong Remote Work Culture"
-            subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
+            title="Flutter"
+            subTitle="Flutter is a free and open-source mobile UI framework created by Google. It allows you to create a native mobile application with only one codebase."
             variants={cardAnimation}
             animate={controls}
           />
           <Blog
             image={BlogImage6}
-            title="How to Build a Strong Remote Work Culture"
-            subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
+            title="Machine Learning"
+            subTitle="Machine learning is the study of computer algorithms that can improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence."
             variants={cardAnimation}
             animate={controls}
           />
           <Blog
             image={BlogImage7}
-            title="How to Build a Strong Remote Work Culture"
-            subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
+            title="Solidworks"
+            subTitle="SolidWorks is a solid modeling computer-aided design (CAD) and computer-aided engineering (CAE) computer program published by Dassault Systèmes, that runs primarily on Microsoft Windows."
             variants={cardAnimation}
             animate={controls}
           />
           <Blog
             image={BlogImage8}
-            title="How to Build a Strong Remote Work Culture"
-            subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
+            title="Circuit Design"
+            subTitle="Circuit design is the process of working out the physical form that an electronic circuit will take, the result of the circuit design process is the instructions on how to construct the physical electronic circuit."
             variants={cardAnimation}
             animate={controls}
           />
           <Blog
             image={BlogImage9}
-            title="How to Build a Strong Remote Work Culture"
-            subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
+            title="Robotics"
+            subTitle="Robotics is an interdisciplinary branch of computer science and engineering. Robotics involves design, construction, operation, and use of robots."
             variants={cardAnimation}
             animate={controls}
           />
           <Blog
             image={BlogImage10}
-            title="How to Build a Strong Remote Work Culture"
-            subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
+            title="Graphic Design"
+            subTitle="Graphic design is the craft of planning and creating visual content to communicate ideas and messages."
             variants={cardAnimation}
             animate={controls}
           />
