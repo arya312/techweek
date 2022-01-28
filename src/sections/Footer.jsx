@@ -27,7 +27,7 @@ function Footer() {
             <br/>
               <div className="form">
                 <div className="detail-name">Fill the form to know more about us.</div>
-                  <a href="#" target = "_blank">Click here</a>
+                  <a href="http://bit.ly/ieee-techweek22" target = "_blank">Click here</a>
               </div>
           </motion.div>
           <motion.div
