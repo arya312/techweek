@@ -21,17 +21,17 @@ function Blog({ image, title, subTitle, variants, animate }) {
         <div className="subTitle">
           <p>{subTitle}</p>
         </div>
-        <a 
-        href = "http://bit.ly/ieee-techweek22"
-        style = {{ textDecoration: "none"}}
-        target = "_blank"
-        rel = "nonreferrer"
+        <a
+          href="https://bit.ly/ieee-techweek22"
+          style={{ textDecoration: "none" }}
+          target="_blank"
+          rel="noreferrer"
         >
           <Button
-          content="Read more"
-          color="inverse"
-          icon={<HiOutlineArrowNarrowRight />}
-        />
+            content="Register"
+            color="inverse"
+            icon={<HiOutlineArrowNarrowRight />}
+          />
         </a>
       </div>
     </motion.div>
