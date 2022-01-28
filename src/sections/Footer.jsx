@@ -39,50 +39,19 @@ function Footer() {
             <h3>Quick Links</h3>
             <ul>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Timeline</a>
+                <a href="#timeline">Timeline</a>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <a href="#contact">Contact Us</a>
               </li>
               <li>
-                <a href="#">Events</a>
+                <a href="#blog">Events</a>
               </li>
             </ul>
           </motion.div>
-          {/* <motion.div
-            className="touch"
-            variants={fromDown}
-            animate={controls}
-            transition={{ duration: 0.5 }}
-            >
-
-            <div className="touch-section">
-              <div className="icon">
-                <FaPhoneAlt />
-              </div>
-              <div className="detail">
-                <div className="detail-name">Phone</div>
-                <div className="detail-content">
-                <a href="tel:9111827121" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">9111827121</p></a>
-                </div>
-              </div>
-            </div>
-
-            <div className="touch-section">
-              <div className="icon">
-                <ImLocation />
-              </div>
-              <div className="detail">
-                <div className="detail-name">Location</div>
-                <div className="detail-content">
-                  <a href="#"> DTU, Bawana Road, New Delhi</a>
-                </div>
-              </div>
-            </div>
-          </motion.div> */}
           <motion.div
             className="touch"
             variants={fromDown}
@@ -120,30 +89,6 @@ function Footer() {
                 <a href="https://wa.me/919650408541" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">+91 9650408541</p></a>                </div>
               </div>
             </div>
-
-            {/* <div className="touch-section">
-              <div className="icon">
-                <FaPhoneAlt />
-              </div>
-              <div className="detail">
-                <div className="detail-name">Phone</div>
-                <div className="detail-content">
-                  <a href="#">+91 7551231231</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="touch-section">
-              <div className="icon">
-                <ImLocation />
-              </div>
-              <div className="detail">
-                <div className="detail-name">Location</div>
-                <div className="detail-content">
-                  <a href="#"> 32 StreetOne Boards, GJ 560123</a>
-                </div>
-              </div>
-            </div> */}
           </motion.div>
           <motion.div className="touch"
             variants={fromDown}
