@@ -2,7 +2,7 @@ import React from "react";
 import BrandName from "../components/BrandName";
 import { useScroll } from "../components/useScroll";
 import { MdEmail } from "react-icons/md";
-import { FaPhoneAlt, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaPhoneAlt, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 import { AiFillInstagram, AiFillLinkedin, AiOutlineSend } from "react-icons/ai";
 import { motion } from "framer-motion";
@@ -159,6 +159,37 @@ function Footer() {
                 <div className="detail-name">Location</div>
                 <div className="detail-content">
                   <a href=""> DTU, Bawana Road, New Delhi </a>
+                </div>
+              </div>
+            </div>
+            </motion.div>
+        </div>
+        <div>
+        <motion.div className="touch"
+            variants={fromDown}
+            animate={controls}
+            transition={{ duration: 0.5 }}
+          >
+          <h3>DESIGNED AND DEVELOPED BY:</h3> 
+          <div className="touch-section">
+              <div className="icon">
+              <AiFillLinkedin/>
+              </div>
+              <div className="detail">
+                <div className="detail-name">Arya Pandey</div>
+                <div className="detail-content">
+                <a href="https://www.linkedin.com/in/arya-pandey-5340651b8/">Click Here</a>   
+                </div>
+              </div>
+            </div>
+            <div className="touch-section">
+              <div className="icon">
+              <AiFillLinkedin/>
+              </div>
+              <div className="detail">
+                <div className="detail-name">Shreya Sahu</div>
+                <div className="detail-content">
+                <a href="https://www.linkedin.com/in/shreya-sahu-1463691bb/">Click Here</a>   
                 </div>
               </div>
             </div>
