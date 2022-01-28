@@ -23,9 +23,19 @@
     }
     .blogs {
       margin-bottom: 2rem;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 4rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      .blog-container {
+        width: 350px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 10px;
+      }
     }
     .button-container {
       display: flex;

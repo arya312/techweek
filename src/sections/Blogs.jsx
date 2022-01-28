@@ -23,7 +23,6 @@ function Blogs() {
           transition={{ duration: 1 }}
         >
           <Title title="Events" color="pink" lineCenter={true} />
-          <p>Insights and advice from our experts.</p>
         </motion.div>
         <div className="blogs">
           <Blog
