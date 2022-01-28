@@ -33,10 +33,10 @@ export default function Starter() {
             upcoming technologies.
           </p>
           <div className="button-container">
-            <Button content="Watch Video" icon={<GoPlay />} />
+            {/* <Button content="Watch Video" icon={<GoPlay />}/> */}
             <Button
               color="pink"
-              content="Join Us!"
+              content="Register"
               icon={<HiOutlineArrowNarrowRight />}
             />
           </div>

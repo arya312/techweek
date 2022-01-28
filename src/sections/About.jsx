@@ -39,7 +39,7 @@ function About() {
           <p>
             You don't need to be an IEEE DTU member to attend. Free for all!
           </p>
-          <Button content="What is Techweek?" />
+          {/* <Button content="What is Techweek?" /> */}
         </motion.div>
         <div className="cards" ref={element}>
           <Card
