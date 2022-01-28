@@ -21,6 +21,7 @@ function Blog({ image, title, subTitle, variants, animate }) {
         <div className="subTitle">
           <p>{subTitle}</p>
         </div>
+<<<<<<< HEAD
         <a
           href="https://bit.ly/ieee-techweek22"
           style={{ textDecoration: "none" }}
@@ -32,6 +33,19 @@ function Blog({ image, title, subTitle, variants, animate }) {
             color="inverse"
             icon={<HiOutlineArrowNarrowRight />}
           />
+=======
+        <a 
+        href = "http://bit.ly/ieee-techweek22"
+        style = {{ textDecoration: "none"}}
+        target = "_blank"
+        rel = "nonreferrer"
+        >
+          <Button
+          content="Read more"
+          color="inverse"
+          icon={<HiOutlineArrowNarrowRight />}
+        />
+>>>>>>> 8907a601402f730306324746fa687ce07136c6f8
         </a>
       </div>
     </motion.div>
