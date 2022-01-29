@@ -10,6 +10,7 @@
     margin: 2rem 0;
     display: flex;
     justify-content: space-around;
+    background-color: white;
     .col {
       display: flex;
       justify-content: space-between;
@@ -55,11 +56,10 @@
         display: block;
       }
     }
-
     .navbar {
       flex-direction: column;
       justify-content: flex-start;
-
+      padding: 0 20px;
       .col {
         .collapseble-button {
           display: block;
