@@ -1,15 +1,12 @@
 import React from "react";
 import Button from "./Button";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import { motion } from "framer-motion";
 import "../styles/components/Blog.scss";
 
 function Blog({ image, title, subTitle, variants, animate }) {
   return (
-    <motion.div
+    <div
       className="blog-container"
-      variants={variants}
-      animate={animate}
     >
       <div className="image">
         <img src={image} alt="Blog" />
@@ -34,7 +31,7 @@ function Blog({ image, title, subTitle, variants, animate }) {
           />
         </a>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

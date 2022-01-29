@@ -9,10 +9,14 @@ import { data } from "./TimelineData";
 
 const Timeline = () => {
   return (
-    <div className="timeline" id = "timeline">
+    <div className="timeline" id="timeline">
       <div className="heading">
-        <h1>Timeline</h1>
+        <h2>Timeline</h2>
+        <div className="pink">
+          <span></span>
+        </div>
       </div>
+
       <VerticalTimeline>
         {data.map((game) => {
           return (

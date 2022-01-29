@@ -17,6 +17,9 @@
   div .pink {
     background-color: $pinkColor;
   }
+  @media screen and (max-width: 480px) {
+    margin-top: 50px;
+  }
 }
 .center {
   display: flex;
