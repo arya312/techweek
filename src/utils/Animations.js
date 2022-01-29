@@ -72,6 +72,6 @@ export const reasonsAnimation = {
 };
 
 export const navbarAnimation = {
-    hidden:{y:-100},
-    show:{y:0}
-}
+  hidden: { y: -100 },
+  show: { y: 0 },
+};

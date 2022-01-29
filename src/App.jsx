@@ -10,12 +10,7 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    <motion.div
-      className="App"
-      initial="hidden"
-      animate="show"
-      style={{ width: "100%", margin: 0, height: "100vh" }}
-    >
+    <motion.div className="App" initial="hidden" animate="show" style={{ width: "100%", margin: 0, height: "100vh" }}>
       <ScrollToTop />
       <Starter />
       <About />

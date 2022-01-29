@@ -4,11 +4,7 @@ import "../styles/components/Testimonial.scss";
 
 function Testimonial({ content, name, designation, variants, animate }) {
   return (
-    <motion.div
-      className="testimonial-container"
-      variants={variants}
-      animate={animate}
-    >
+    <motion.div className="testimonial-container" variants={variants} animate={animate}>
       <div className="quote">
         <span>&#10077;</span>
       </div>

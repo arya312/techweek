@@ -23,9 +23,7 @@ function Blogs() {
   return (
     <div className="blogs-container" id="blog" ref={element}>
       <div className="container">
-        <div
-          className="title-container"
-        >
+        <div className="title-container">
           <Title title="Events" color="pink" lineCenter={true} />
         </div>
         <div className="blogs">
@@ -50,13 +48,7 @@ function Blogs() {
             variants={cardAnimation}
             animate={controls}
           />
-          <Blog
-            image={BlogImage4}
-            title="Web Development"
-            subTitle="Web development refers to building, creating, and maintaining websites."
-            variants={cardAnimation}
-            animate={controls}
-          />
+          <Blog image={BlogImage4} title="Web Development" subTitle="Web development refers to building, creating, and maintaining websites." variants={cardAnimation} animate={controls} />
           <Blog
             image={BlogImage5}
             title="Flutter"

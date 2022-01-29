@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./Timeline.css";
 import { data } from "./TimelineData";
@@ -43,15 +40,10 @@ const Timeline = () => {
                 />
               }
             >
-              <h2
-                className="vertical-timeline-element-title"
-                style={{ marginBottom: "8px" }}
-              >
+              <h2 className="vertical-timeline-element-title" style={{ marginBottom: "8px" }}>
                 {game.heading}
               </h2>
-              <h4 className="vertical-timeline-element-subtitle">
-                {game.description}
-              </h4>
+              <h4 className="vertical-timeline-element-subtitle">{game.description}</h4>
               {/* <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus id orci non hendrerit. Fusce eget felis ac nisi finibus.
           </p> */}
