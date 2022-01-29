@@ -38,9 +38,7 @@
   z-index: 200;
 }
 
-.vertical-timeline-element-content
-  .vertical-timeline-element-date.vertical-timeline-element-content
-  .vertical-timeline-element-date {
+.vertical-timeline-element-content .vertical-timeline-element-date.vertical-timeline-element-content .vertical-timeline-element-date {
   color: white;
   opacity: 1;
   z-index: 200;

@@ -5,9 +5,9 @@ import gd from "./images/gd.png";
 import fl from "./images/flutter.png";
 import ml from "./images/ml.png";
 import iot from "./images/iot.png";
-import solidworks from "./images/solidworks.png"
-import circuits from "./images/circuits.png"
-import cpp from "./images/cpp.png"
+import solidworks from "./images/solidworks.png";
+import circuits from "./images/circuits.png";
+import cpp from "./images/cpp.png";
 
 export const data = [
   {
@@ -59,5 +59,5 @@ export const data = [
     heading: "Graphic Design",
     img: gd,
     date: "Feb 6th, 6pm Onwards",
-  }
+  },
 ];
