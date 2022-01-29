@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/techweek/static/css/main.51afb372.css",
-    "main.js": "/techweek/static/js/main.12223b1f.js",
-    "static/media/blogImage2.jpg": "/techweek/static/media/blogImage2.9b1700efab8f94d3c876.jpg",
-    "static/media/blogImage1.jpg": "/techweek/static/media/blogImage1.5c51346bd48e3c4cc8cd.jpg",
-    "static/media/blogImage3.jpg": "/techweek/static/media/blogImage3.faeaff90e0e0dba20e30.jpg",
+    "main.css": "/techweek/static/css/main.c2be0240.css",
+    "main.js": "/techweek/static/js/main.9cc1143e.js",
+    "static/media/solidworks.png": "/techweek/static/media/solidworks.518ca0aabad9d6cefc2e.png",
+    "static/media/ml.jpeg": "/techweek/static/media/ml.9f74d22908289e3af26e.jpeg",
+    "static/media/circuits.jpeg": "/techweek/static/media/circuits.5951afda5616928a7f22.jpeg",
+    "static/media/webd.jpeg": "/techweek/static/media/webd.e823b84feacf9551c068.jpeg",
+    "static/media/basicprogramming.jpeg": "/techweek/static/media/basicprogramming.00781533ad70285dd5a0.jpeg",
+    "static/media/dsa.jpeg": "/techweek/static/media/dsa.ff5c2f459e35da70fa25.jpeg",
+    "static/media/iot.jpeg": "/techweek/static/media/iot.bdfd24f0a7dfaa2664b2.jpeg",
+    "static/media/flutter.jpeg": "/techweek/static/media/flutter.6569df14d0ec3d065a6e.jpeg",
     "static/media/ieee.png": "/techweek/static/media/ieee.8df69a328198f94bf13c.png",
     "static/media/ml.png": "/techweek/static/media/ml.19200fbd2c66076b106c.png",
     "static/media/webd.png": "/techweek/static/media/webd.1f4226ab8f8f0171ab61.png",
     "static/media/iot.png": "/techweek/static/media/iot.4445a650045b6b51cc8b.png",
     "static/media/circuits.png": "/techweek/static/media/circuits.41f815567a751ea47ffc.png",
     "static/media/gd.png": "/techweek/static/media/gd.0a7c326913e5d1b76315.png",
-    "static/media/solidworks.png": "/techweek/static/media/solidworks.518ca0aabad9d6cefc2e.png",
+    "static/media/graphicdesign.png": "/techweek/static/media/graphicdesign.2b72451f2d531e08a712.png",
     "static/media/robot.png": "/techweek/static/media/robot.3f19fc2c5e80fe7bd9df.png",
     "static/media/cpp.png": "/techweek/static/media/cpp.acd080d4721a57b9fa26.png",
     "static/media/ds.png": "/techweek/static/media/ds.e7a9a85966bc0f1a14af.png",
     "static/media/flutter.png": "/techweek/static/media/flutter.4ae7cc80757a7a1eb9e3.png",
     "index.html": "/techweek/index.html",
-    "main.51afb372.css.map": "/techweek/static/css/main.51afb372.css.map",
-    "main.12223b1f.js.map": "/techweek/static/js/main.12223b1f.js.map"
+    "main.c2be0240.css.map": "/techweek/static/css/main.c2be0240.css.map",
+    "main.9cc1143e.js.map": "/techweek/static/js/main.9cc1143e.js.map"
   },
   "entrypoints": [
-    "static/css/main.51afb372.css",
-    "static/js/main.12223b1f.js"
+    "static/css/main.c2be0240.css",
+    "static/js/main.9cc1143e.js"
   ]
 }
