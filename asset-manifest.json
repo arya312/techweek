@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/techweek/static/css/main.c2be0240.css",
+    "main.css": "/techweek/static/css/main.b3e0f003.css",
     "main.js": "/techweek/static/js/main.9cc1143e.js",
     "static/media/solidworks.png": "/techweek/static/media/solidworks.518ca0aabad9d6cefc2e.png",
     "static/media/ml.jpeg": "/techweek/static/media/ml.9f74d22908289e3af26e.jpeg",
@@ -22,11 +22,11 @@
     "static/media/ds.png": "/techweek/static/media/ds.e7a9a85966bc0f1a14af.png",
     "static/media/flutter.png": "/techweek/static/media/flutter.4ae7cc80757a7a1eb9e3.png",
     "index.html": "/techweek/index.html",
-    "main.c2be0240.css.map": "/techweek/static/css/main.c2be0240.css.map",
+    "main.b3e0f003.css.map": "/techweek/static/css/main.b3e0f003.css.map",
     "main.9cc1143e.js.map": "/techweek/static/js/main.9cc1143e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2be0240.css",
+    "static/css/main.b3e0f003.css",
     "static/js/main.9cc1143e.js"
   ]
 }
