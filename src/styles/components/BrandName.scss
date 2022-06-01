@@ -1,6 +1,10 @@
 @import "../utils/Colors.scss";
 
 .brand {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   cursor: pointer;
   span {
     text-transform: uppercase;

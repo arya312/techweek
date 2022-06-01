@@ -14,20 +14,10 @@ export default function Navbar() {
   };
   return (
     <div className="navBarContainer">
-      <motion.div
-        className={`navbar ${toggleNavbar === true ? "active" : ""}`}
-        variants={navbarAnimation}
-        transition={{ delay: 0.1 }}
-      >
+      <motion.div className={`navbar ${toggleNavbar === true ? "active" : ""}`} variants={navbarAnimation} transition={{ delay: 0.1 }}>
         <div className="col">
           <BrandName />
-          <div className="collapseble-button">
-            {!toggleNavbar ? (
-              <GiHamburgerMenu onClick={navbarToggler} />
-            ) : (
-              <MdClose onClick={navbarToggler} />
-            )}
-          </div>
+          <div className="collapseble-button">{!toggleNavbar ? <GiHamburgerMenu onClick={navbarToggler} /> : <MdClose onClick={navbarToggler} />}</div>
         </div>
         <nav>
           <div className="links">

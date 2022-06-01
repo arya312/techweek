@@ -45,7 +45,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .main-container {
     .container {
-      grid-template-columns: 1fr;
+      flex-direction: column;
       .content {
         margin-right: 0;
         h1 {
@@ -59,8 +59,8 @@
       .image {
         margin-left: 2rem;
         img {
-          height: 25rem;
-          width: 25rem;
+          height: 35rem;
+          width: 35rem;
         }
       }
     }

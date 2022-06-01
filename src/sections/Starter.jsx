@@ -18,35 +18,17 @@ export default function Starter() {
       {/* <ParticlesBackground> */}
       <Navbar />
       <div className="container">
-        <motion.div
-          className="content"
-          variants={headerAnimation}
-          animate={controls}
-          transition={{ delay: 0.2, type: "tween" }}
-        >
+        <motion.div className="content" variants={headerAnimation} animate={controls} transition={{ delay: 0.2, type: "tween" }}>
           <h2>Welcome to</h2>
           <h1>Techweek</h1>
           <h2>IEEE DTU!</h2>
-          <p>
-            TECHWEEK is the annual workshop galore organised by IEEE DTU which
-            offers budding engineers an insight into the various new and
-            upcoming technologies.
-          </p>
+          <p>TECHWEEK is the annual workshop galore organised by IEEE DTU which offers budding engineers an insight into the various new and upcoming technologies.</p>
           <div className="button-container">
             {/* <Button content="Watch Video" icon={<GoPlay />}/> */}
-            <Button
-              color="pink"
-              content="Register"
-              icon={<HiOutlineArrowNarrowRight />}
-            />
+            <Button color="pink" content="Register" icon={<HiOutlineArrowNarrowRight />} />
           </div>
         </motion.div>
-        <motion.div
-          className="image"
-          variants={imageAnimation}
-          animate={controls}
-          transition={{ type: "tween" }}
-        >
+        <motion.div className="image" variants={imageAnimation} animate={controls} transition={{ type: "tween" }}>
           <img src={WorkImage} alt="Work Image" />
         </motion.div>
       </div>

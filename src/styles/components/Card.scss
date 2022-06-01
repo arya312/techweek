@@ -10,6 +10,27 @@
   flex-direction: column;
   justify-content: space-between;
   transition: 0.4s ease-in-out;
+  margin: 20px;
+
+  @media screen and (max-width: 1391px){
+    height: 6rem;
+    width: 12rem;
+  }
+
+  @media screen and (max-width: 1199px){
+    height: 4rem;
+    width: 10rem;
+  }
+
+  @media screen and (max-width: 1071px){
+    margin: 10px;
+  }
+
+  @media screen and (max-width: 599px) {
+    height: 6rem;
+    width: 35%;
+  }
+
   .logo {
     background-color: #f32a8f33;
     height: 4rem;
@@ -28,6 +49,9 @@
     margin-bottom: 1rem;
     font-size: x-large;
     color: rgb(18, 18, 88);
+    @media screen and (max-width: 1199px){
+      font-size: 15px;
+    }
   }
   &:hover {
     box-shadow: #f32a8f2f 5px 5px, #f32a8f1e 10px 10px, #f32a8f02 15px 15px;
@@ -51,10 +75,7 @@
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .card {
-    height: 8rem;
-    width: 13vw;
-    padding: 3rem 3.5rem;
-
+    padding: 2rem;
     .logo {
       height: 4rem;
       width: 4rem;
@@ -64,7 +85,7 @@
     }
     .card-title {
       margin-bottom: 1rem;
-      font-size: small;
+      font-size: 10px;
       color: rgb(18, 18, 88);
     }
   }

@@ -23,14 +23,9 @@ function Blogs() {
   return (
     <div className="blogs-container" id="blog" ref={element}>
       <div className="container">
-        <motion.div
-          className="title-container"
-          variants={textAnimation}
-          animate={controls}
-          transition={{ duration: 1 }}
-        >
+        <div className="title-container">
           <Title title="Events" color="pink" lineCenter={true} />
-        </motion.div>
+        </div>
         <div className="blogs">
           <Blog
             image={BlogImage1}
@@ -53,13 +48,7 @@ function Blogs() {
             variants={cardAnimation}
             animate={controls}
           />
-          <Blog
-            image={BlogImage4}
-            title="Web Development"
-            subTitle="Web development refers to building, creating, and maintaining websites."
-            variants={cardAnimation}
-            animate={controls}
-          />
+          <Blog image={BlogImage4} title="Web Development" subTitle="Web development refers to building, creating, and maintaining websites." variants={cardAnimation} animate={controls} />
           <Blog
             image={BlogImage5}
             title="Flutter"

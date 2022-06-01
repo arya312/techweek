@@ -1,16 +1,11 @@
 import React from "react";
 import Button from "./Button";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import { motion } from "framer-motion";
 import "../styles/components/Blog.scss";
 
 function Blog({ image, title, subTitle, variants, animate }) {
   return (
-    <motion.div
-      className="blog-container"
-      variants={variants}
-      animate={animate}
-    >
+    <div className="blog-container">
       <div className="image">
         <img src={image} alt="Blog" />
       </div>
@@ -21,20 +16,11 @@ function Blog({ image, title, subTitle, variants, animate }) {
         <div className="subTitle">
           <p>{subTitle}</p>
         </div>
-        <a
-          href="https://bit.ly/ieee-techweek22"
-          style={{ textDecoration: "none" }}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Button
-            content="Register"
-            color="inverse"
-            icon={<HiOutlineArrowNarrowRight />}
-          />
+        <a href="https://bit.ly/ieee-techweek22" style={{ textDecoration: "none" }} target="_blank" rel="noreferrer">
+          <Button content="Register" color="inverse" icon={<HiOutlineArrowNarrowRight />} />
         </a>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

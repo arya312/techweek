@@ -1,35 +1,52 @@
 .timeline {
-    position: relative;
-    top: 100px;
-    margin-bottom: 30px;
-    margin-top: -100px;
-  }
-  
-  .timeline .heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 400;
-    color: black;
-    margin-bottom: 30px;
-  }
-  
+  position: relative;
+  top: 100px;
+  margin-bottom: 30px;
+  margin-top: -100px;
+}
+
+.timeline .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.timeline .heading h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.7rem;
+  font-size: xx-large;
+  color: rgb(18, 18, 88);
+  text-align: center;
+}
+
+.timeline .pink {
+  height: 0.3rem;
+  width: 3rem;
+  border-radius: 0.1rem;
+  background-color: #f32a8f;
+}
+
+.dateStyle {
+  color: black;
+  opacity: 1;
+  z-index: 200;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date.vertical-timeline-element-content .vertical-timeline-element-date {
+  color: white;
+  opacity: 1;
+  z-index: 200;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1000px) {
   .dateStyle {
-    color: black;
-    opacity: 1;
-    z-index: 200;
-  }
-  
-  .vertical-timeline-element-content .vertical-timeline-element-date.vertical-timeline-element-content .vertical-timeline-element-date{
     color: white;
-    opacity: 1;
-    z-index: 200;
-    font-size: 40px;
   }
-  
-  @media screen and (max-width: 1000px) {
-    .dateStyle {
-      color: white;
-    }
-  }
+}
